@@ -1,0 +1,26 @@
+- Any folder to be read, by default is read by 'index' file regardless of its type (js, html..);
+
+- Why is a separate css file recommended? Because to read a complete html file for the system with css and html increases weight and decreases performance.
+- Why a different folder is required for assets ? Because the files have to have 'relative paths'.
+
+- Every single module is called a component
+
+- Any styling that we want to be strictly applied, we must add importnant to that
+
+
+
+ <div class="header">
+        <!-- logo  -->
+        <img src="/assets/LOGO.svg" />
+        <!-- Searchbar -->
+        <div class="inputwrapper">
+          <input placeholder="Search here" />
+
+          <!-- menu -->
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+          </ul>
+        </div>
+      </div>
